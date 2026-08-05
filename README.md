@@ -21,4 +21,17 @@ AI Study Assistant is a Streamlit web app that helps students ask school-related
 2. Install the dependencies:
 
 bash
-pi…
+pip install -r requirements.txt
+
+
+## Run the app
+
+Start the Streamlit app with:
+
+bash
+streamlit run app.py
+
+
+## Notes
+
+The app currently uses a Firebase Realtime Database URL and a Google Gemini client directly inside the code. If you plan to reuse or deploy this project, consider moving sensitive values such as the API key and database URL to environment variables.
