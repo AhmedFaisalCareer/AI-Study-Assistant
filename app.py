@@ -93,11 +93,11 @@ if "messages" not in st.session_state:
 
 for message in st.session_state.messages:
 
-    with st.chat_message(message["role"]):
+    if isinstance(message, dict) and "role" in message and "content" in message:
 
-        st.write(message["content"])
-
-
+        with st.chat_message(message["role"]):
+            st.write(message["content"])
+            
 question = st.chat_input("Ask your question...")
 
 
