@@ -1,4 +1,3 @@
-```python
 import os
 
 import streamlit as st
@@ -337,4 +336,3 @@ Recent conversation:
     except Exception as error:
 
         st.warning(f"Could not save chat history: {error}")
-```
