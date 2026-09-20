@@ -1,24 +1,51 @@
-# AI Study Assistant
+🤖 AI Study Assistant
 
-AI Study Assistant is a Streamlit web app that helps students ask school-related questions in simple language. It collects a student profile, stores chat history, and uses Google Gemini to generate helpful explanations tailored to the student.
+AI Study Assistant is a simple web app that helps students with their studies.
 
-## Features
+Students can ask questions and get answers from Google Gemini AI. The app also saves the student's profile and chat history using Firebase.
 
-- Create and save a student profile with name, grade, and favorite subject
-- Chat with the assistant in a simple conversational interface
-- Store messages and profile data in Firebase Realtime Database
-- Generate answers using the Google Gemini API
+✨ Features
+🤖 Ask questions to AI
+📚 Get simple explanations
+👤 Create a student profile
+💬 Chat with the AI
+🧠 AI can use recent messages for context
+🔥 Save profile and chat history in Firebase
+🌐 Simple web interface using Streamlit
+🛠️ Technologies
 
-## Requirements
+This project uses:
 
-- Python 3.10+
-- A Google Gemini API key
-- Access to the Firebase Realtime Database URL used by the app
+Python – Main programming language
+Streamlit – Creates the web app
+Google Gemini – Provides AI answers
+Firebase – Stores profile and messages
+Requests – Connects Python with Firebase
+## 📁 Project Files
 
-## Installation
+```text
+AI-Study-Assistant/
+│
+├── app.py
+├── requirements.txt
+└── README.md
+```
 
-1. Create and activate a virtual environment (optional but recommended).
-2. Install the dependencies:
+### `app.py`
 
-bash
-pi…
+This is the main file of the AI Study Assistant. It contains the Streamlit app, Gemini AI connection, Firebase connection, student profile, and chat system.
+
+### `requirements.txt`
+
+This file contains the Python packages needed to run the project.
+
+### `README.md`
+
+This file contains information about the project and instructions for running it.
+## 🌐 Live Demo
+
+Try the AI Study Assistant here:
+
+👉 **[Open AI Study Assistant](https://ai-study-assistant-gmosuffen2542fx5892auu.streamlit.app/))**
+
+You can open the link and try asking the AI a study question.
